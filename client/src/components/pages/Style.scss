@@ -1,0 +1,64 @@
+form {
+  margin-top: 3rem;
+  background-color: #b7c2d4;
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.3rem;
+
+  input {
+    width: 250px;
+
+    padding: 0.8rem 1.7rem;
+    margin-right: 0.5rem;
+
+    border: none;
+    border-radius: 0.5rem;
+
+    font-size: 1rem;
+    color: darkslategrey;
+
+    &::placeholder {
+      color: rgba(47, 62, 79, 0.398);
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:focus::placeholder {
+      color: white;
+    }
+  }
+
+  button {
+    padding: 0.6rem 1rem;
+
+    border-radius: 0.5rem;
+    border: none;
+
+    background-color: rgb(67, 83, 124);
+
+    font-size: 1rem;
+    color: white;
+
+    transition: 0.4s;
+
+    &:hover {
+      background-color: rgb(26, 35, 59);
+    }
+  }
+}
+
+.title {
+  text-align: center;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.518);
+}
+
+.names {
+  background-color: #fff;
+  border-radius: 0.6rem;
+  color: #425f8e;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  margin-top: 0.8rem;
+}
