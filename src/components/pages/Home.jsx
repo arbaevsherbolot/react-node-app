@@ -5,14 +5,11 @@ import "./Style.scss";
 export const Home = () => {
   const [name, setName] = useState("");
 
-  const port = 2006;
-  const path = "sendData";
-
   async function sendData(e) {
     e.preventDefault();
 
     try {
-      await axios.post(`http://localhost:${port}/${path}`, {
+      await axios.post("https://hilarious-goat-veil.cyclic.app/sendData", {
         name,
       });
     } catch (err) {

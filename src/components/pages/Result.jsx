@@ -4,11 +4,8 @@ import "./Style.scss";
 export const Result = () => {
   const [users, setUsers] = useState([]);
 
-  const port = 2006;
-  const path = "result";
-
   useEffect(() => {
-    fetch(`http://localhost:${port}/${path}`)
+    fetch("https://hilarious-goat-veil.cyclic.app/result")
       .then((response) => response.json())
       .then((data) => setUsers(data));
   }, []);
