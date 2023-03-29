@@ -3,8 +3,8 @@ form {
   justify-content: center;
   align-items: center;
 
-  margin-top: 3rem;
-  background-color: #0f1726dd;
+  margin-top: 5rem;
+  background-color: #2f4156e8;
   border-radius: 0.5rem;
   padding: 0.5rem 0.5rem;
 
@@ -52,14 +52,15 @@ form {
 }
 
 .names {
-  width: 600px;
-  line-height: 2rem;
+  padding: 1rem 2rem;
+  margin: 0.8rem 3rem;
+
   background-color: white;
+  box-shadow: 8px 8px 0 rgb(163, 203, 255);
   border-radius: 0.6rem;
+
   color: rgb(27, 34, 58);
-  box-shadow: 0 0 500px rgb(0, 170, 255);
+  line-height: 2rem;
   font-weight: 600;
   font-size: 1.2rem;
-  padding: 1rem 2rem;
-  margin-top: 0.8rem;
 }

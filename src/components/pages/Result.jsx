@@ -14,8 +14,8 @@ export const Result = () => {
       <h3 className="title">All names:</h3>
 
       {users.map((user, id) => (
-        <div key={id}>
-          <p className="names">{user.names}</p>
+        <div className="names" key={id}>
+          <p>{user.names}</p>
         </div>
       ))}
     </div>

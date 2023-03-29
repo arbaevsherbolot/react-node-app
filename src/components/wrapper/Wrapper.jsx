@@ -6,7 +6,7 @@ import { Footer } from "./footer/Footer";
 
 export const Wrapper = () => {
   return (
-    <div className="wrapper__dnrjfhsdurv">
+    <div className="wrapper__big">
       <header>
         <Header />
       </header>
