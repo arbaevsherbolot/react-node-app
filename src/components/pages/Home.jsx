@@ -18,10 +18,10 @@ export const Home = () => {
       alert("Sending a name to the backend (server)");
       alert("The name is added after confirmation!");
       try {
+        window.location.href = "https://sher-app.netlify.app/result";
         await axios.post("http://localhost:2006/sendData", {
           name,
         });
-        window.location.href = "https://sher-app.netlify.app/result";
       } catch (err) {
         console.log(err);
       }
