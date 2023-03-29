@@ -4,6 +4,7 @@
   justify-content: center;
 
   background-color: #fff;
+  box-shadow: 0 5px 2rem rgba(0, 0, 0, 0.383);
   border-radius: 2rem;
 
   padding: 0.3rem;
@@ -18,10 +19,10 @@
       padding: 0.6rem 2rem;
       border-radius: 2rem;
 
-      background-color: #0a1e2c;
+      background-color: #d4ecffca;
 
       font-size: 1rem;
-      color: white;
+      color: #0a1e2c;
 
       transition: 0.4s;
 
@@ -35,10 +36,10 @@
       padding: 0.6rem 2rem;
       border-radius: 2rem;
 
-      background-color: #9cc2ff;
+      background-color: #172c3b;
 
       font-size: 1rem;
-      color: #0a1e2c;
+      color: white;
 
       transition: 0.4s;
     }
