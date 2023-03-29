@@ -1,8 +1,12 @@
 form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   margin-top: 3rem;
-  background-color: #ffffff54;
+  background-color: #0f1726dd;
   border-radius: 0.5rem;
-  padding: 0.3rem 0.3rem;
+  padding: 0.5rem 0.5rem;
 
   input {
     width: 250px;
@@ -32,21 +36,12 @@ form {
   }
 
   button {
-    padding: 0.6rem 1rem;
-
     border-radius: 0.5rem;
+    background-color: transparent;
     border: none;
-
-    background-color: rgb(42, 52, 74);
-
-    font-size: 1rem;
-    color: white;
+    text-align: center;
 
     transition: 0.4s;
-
-    &:hover {
-      background-color: rgb(26, 35, 59);
-    }
   }
 }
 
