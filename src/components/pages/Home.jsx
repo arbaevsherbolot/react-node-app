@@ -21,6 +21,7 @@ export const Home = () => {
         await axios.post("http://localhost:2006/sendData", {
           name,
         });
+        window.location.href = "https://sher-app.netlify.app/result";
       } catch (err) {
         console.log(err);
       }
