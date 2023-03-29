@@ -8,6 +8,7 @@ export const Home = () => {
 
   async function sendData(e) {
     if (input.value == " " || input.value === "") {
+      e.preventDefault();
       alert("The field must not be empty");
     } else {
       e.preventDefault();
