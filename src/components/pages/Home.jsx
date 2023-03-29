@@ -7,9 +7,8 @@ export const Home = () => {
   const [name, setName] = useState("");
 
   async function sendData(e) {
-    if (input.value == " " || input.value === "") {
+    if (input.value === " " || input.value === "") {
       e.preventDefault();
-      alert("The field must not be empty");
     } else {
       e.preventDefault();
       input.value = "";
