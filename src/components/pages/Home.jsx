@@ -10,7 +10,7 @@ export const Home = () => {
     input.value = "";
 
     try {
-      await axios.post("https://hilarious-goat-veil.cyclic.app/sendData", {
+      await axios.post("http://localhost:2006/sendData", {
         name,
       });
     } catch (err) {
