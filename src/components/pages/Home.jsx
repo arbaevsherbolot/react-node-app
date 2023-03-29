@@ -13,6 +13,8 @@ export const Home = () => {
       e.preventDefault();
       input.value = "";
 
+      alert("Sending a name to the backend (server)");
+      alert("The name is added after confirmation!");
       try {
         await axios.post("http://localhost:2006/sendData", {
           name,
