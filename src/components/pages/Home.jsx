@@ -9,9 +9,11 @@ export const Home = () => {
   async function sendData(e) {
     if (input.value === " " || input.value === "") {
       e.preventDefault();
+      err.innerText = "This field should not be empty";
     } else {
       e.preventDefault();
       input.value = "";
+      err.innerText = "";
 
       alert("Sending a name to the backend (server)");
       alert("The name is added after confirmation!");
@@ -39,6 +41,8 @@ export const Home = () => {
           <img src={icon} />
         </button>
       </form>
+
+      <span id="err"></span>
     </div>
   );
 };
