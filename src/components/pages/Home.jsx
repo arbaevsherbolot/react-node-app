@@ -7,6 +7,7 @@ export const Home = () => {
 
   async function sendData(e) {
     e.preventDefault();
+    input.value = "";
 
     try {
       await axios.post("https://hilarious-goat-veil.cyclic.app/sendData", {
@@ -22,6 +23,7 @@ export const Home = () => {
       <form onSubmit={sendData}>
         <input
           type="text"
+          id="input"
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder="Type your name"

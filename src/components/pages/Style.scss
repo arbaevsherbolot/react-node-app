@@ -1,6 +1,6 @@
 form {
   margin-top: 3rem;
-  background-color: #b7c2d4;
+  background-color: #ffffff54;
   border-radius: 0.5rem;
   padding: 0.3rem 0.3rem;
 
@@ -9,12 +9,13 @@ form {
 
     padding: 0.8rem 1.7rem;
     margin-right: 0.5rem;
+    background-color: white;
 
     border: none;
     border-radius: 0.5rem;
 
     font-size: 1rem;
-    color: darkslategrey;
+    color: rgb(18, 44, 62);
 
     &::placeholder {
       color: rgba(47, 62, 79, 0.398);
@@ -22,6 +23,7 @@ form {
 
     &:focus {
       outline: none;
+      background-color: white;
     }
 
     &:focus::placeholder {
@@ -35,7 +37,7 @@ form {
     border-radius: 0.5rem;
     border: none;
 
-    background-color: rgb(67, 83, 124);
+    background-color: rgb(42, 52, 74);
 
     font-size: 1rem;
     color: white;
@@ -51,13 +53,16 @@ form {
 .title {
   text-align: center;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.518);
+  color: rgba(255, 255, 255, 0.828);
 }
 
 .names {
-  background-color: #fff;
+  width: 600px;
+  line-height: 2rem;
+  background-color: white;
   border-radius: 0.6rem;
-  color: #253651;
+  color: rgb(27, 34, 58);
+  box-shadow: 0 0 500px rgb(0, 170, 255);
   font-weight: 600;
   font-size: 1.2rem;
   padding: 1rem 2rem;

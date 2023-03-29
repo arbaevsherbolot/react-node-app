@@ -10,7 +10,10 @@
 }
 
 body {
-  background-color: hsl(216, 26%, 20%);
+  background: url("https://techterms.com/img/xl/server_129.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
 
   min-height: 100vh;
